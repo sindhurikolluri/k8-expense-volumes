@@ -88,6 +88,7 @@ spec:
         project: expense
     spec:
       volumes:
+      #We are creating a volume for our nginx.conf and we will mount it as volumemounts below
       - name: nginx
         configMap:
           name: nginx
